@@ -1,0 +1,40 @@
+# some basic first lines of code
+
+first_name = "Tom"
+last_name = "Mills"
+full_name = f"{first_name} {last_name}"
+print(full_name)
+# to add multiple variables into a new variable we need to use f strings 
+
+
+
+first_name = "tom"
+last_name = "ivey"
+full_name = f"{first_name}, {last_name}"
+print("Hello, ", full_name.title(), "Welcome to Python Crash Course")
+
+# we can add inputs so the user can add their own name
+firs_name = input("What's your first name ?")
+last_name = input("What's your last name ?")
+full_name = f"{firs_name}, {last_name}"
+print("Hello, ", full_name.title(), "Welcome to Python Crash Course")
+
+# SPACING
+
+print("Languages:\npython\nJava\nRuby")
+# \n will add a new line 
+print("Your\nMum\nIs\nA\nSlag")
+
+# STRIPPING
+name = input("What's your name")
+print(name.strip)
+# we use strip to clean up user data before storing it into a program
+
+
+url_call = "https://google.com"
+
+google_url = url_call.removeprefix("https://")
+
+print(google_url)
+
+# stripping is important for behind the scenes or when we go see it removed from a website
