@@ -31,6 +31,7 @@ print(name.strip)
 # we use strip to clean up user data before storing it into a program
 
 
+
 url_call = "https://google.com"
 
 google_url = url_call.removeprefix("https://")
@@ -38,3 +39,22 @@ google_url = url_call.removeprefix("https://")
 print(google_url)
 
 # stripping is important for behind the scenes or when we go see it removed from a website
+
+
+
+
+menu = """
+
+Welcome to the Python Cafe!
+
+Menu:
+/t1. Eggs Ben
+/t2. Salmon
+/t3. Bacon
+/t4. Coffee
+/t5. Tea
+
+"""
+
+print(menu)
+
