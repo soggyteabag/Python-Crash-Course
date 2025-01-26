@@ -1,0 +1,18 @@
+# We identify lists by using the [] 
+
+beatles = ["paul", "john", "george", "ringo"]
+print(beatles[-1].title())
+
+# list count starts at 0 and -1 will return the last item in the list
+
+# We can pull lists into sentences with f strings
+
+print(f"My favourite member of the Beatles is {beatles[0].title()}")
+
+#
+friends = ["Jake", "Con", "Bill", "Leon"]
+
+print(f"I hate {friends[0]} the most")
+print(f"{friends[1].title()} smells like cheese")
+print(f"That guy {friends[2]} is the laziest")
+print(f"{friends[-1]} is in the Phillipines right now")
