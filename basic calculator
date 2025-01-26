@@ -1,0 +1,12 @@
+x = int(input("What is x ?"))
+y = int(input("What is y ? "))
+
+add = int(x + y) 
+subtract = int(x - y)
+divide = int(x - y)
+multiply = int(x * y)
+
+print(f"{x} plus {y} is equal to {add}")
+print(f"{x} minus {y} is equal to {subtract}")
+print(f"{x} divided by {y} is equal to {divide}")
+print(f"{x} multiplied by {y} is equal to {multiply}")
