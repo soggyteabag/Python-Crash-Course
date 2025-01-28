@@ -1,0 +1,12 @@
+Numbers = [1, 2, 3, 4, 5]
+
+print(Numbers)
+popped_numbers = Numbers.pop()
+#this will automatically "pop" the last item and store it elsewhere
+print(popped_numbers)
+
+#if know the position of an item we want to delete in a list use del 
+# if we dont know the position but we know the value, use remove()
+
+Numbers.remove(3)
+print(Numbers)
