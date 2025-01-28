@@ -16,3 +16,42 @@ print(f"I hate {friends[0]} the most")
 print(f"{friends[1].title()} smells like cheese")
 print(f"That guy {friends[2]} is the laziest")
 print(f"{friends[-1]} is in the Phillipines right now")
+
+# This is me putting some practices I've learned all together
+
+drugs = ["ket", "mdma", "chang", "fent"]
+
+print(f"man flyod always doing all of the {drugs[-1].title()}, \neven though I know he wants all the {drugs[0]}")
+
+# this next code will add an extra item to the list at the end
+drugs.append("shrooms")
+
+# you can start with an empty list and add things one at a time
+drugs = []
+
+drugs.append("ket")
+drugs.append("coke")
+drugs.append("mandy")
+print(drugs)
+
+# we can insert into a list and determine position using the same numbering system as before
+drugs.insert(1, "fent")
+print(drugs)
+
+#whereas
+del drugs[1]
+#will take it away
+
+
+drugs = []
+
+drugs.append("ket")
+drugs.append("coke")
+drugs.append("mandy")
+print(drugs)
+
+drugs.insert(1, "fent")
+print(drugs)
+
+del drugs[2]
+print(drugs)
