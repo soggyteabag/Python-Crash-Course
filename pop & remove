@@ -10,3 +10,30 @@ print(popped_numbers)
 
 Numbers.remove(3)
 print(Numbers)
+
+
+# GUEST LIST TASK
+
+guest_list = ["Hitler", "Stalin", "Churchill", "Mao"]
+
+print(f"Dear, {guest_list} you are hereby invited to Dinner") 
+
+print(f"Unfortunately, {guest_list[1]} Cannot make it for Dinner")
+guest_list[1] = "Kim"
+print(f"Thankfully, {guest_list[1]} will be joining us instead")
+print(f"The revised attendees is now {guest_list}")
+
+guest_list.insert(1, "Ghandi")
+guest_list.append("Putin")
+print(guest_list)
+
+removal = guest_list.pop(1)
+print(f"{removal} cannot make it")
+removal = guest_list.pop(1)
+print(f"{removal} cannot make it")
+removal = guest_list.pop(3)
+print(f"{removal} cannot make it")
+removal = guest_list.pop(-1)
+print(f"{removal} cannot make it")
+
+print(f"Due to venue cancellations only, {guest_list} have reserved spacing")
