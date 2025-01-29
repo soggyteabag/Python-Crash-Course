@@ -1,0 +1,10 @@
+places_to_visit = ["Portugal", "Thailand", "Japan", "Brazil", "Canada"]
+
+print(places_to_visit)
+
+print("n\Here is the sorted list: ")
+print(sorted(places_to_visit))
+
+places_to_visit.sort()
+print(places_to_visit)
+print(len(places_to_visit))
