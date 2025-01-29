@@ -37,3 +37,4 @@ removal = guest_list.pop(-1)
 print(f"{removal} cannot make it")
 
 print(f"Due to venue cancellations only, {guest_list} have reserved spacing")
+print(f"Now there are only {len(guest_list)} guests coming for dinner")
